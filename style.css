@@ -15,15 +15,74 @@ tlačítko Facebook aktivní: #2b406e
 */
 
 body {
-    background-color: #b2bec3; font-family: 'Nunito', sans-serif;
+    background-color: #b2bec3; 
 }
-h1 {font-family: 'Nunito', sans-serif; font-size: 36px; color: #d63031;
+
+p {
+    font-family: 'Nunito', sans-serif; 
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif; 
+    font-size: 36px; 
+    font-weight: 700;
+    color: #d63031;
+    margin-top: 0;
 }
 
 .foto {
-    width: 150px; border-radius: 50%; border-color: white; border: 3px;
+    position: absolute; left: 475px; top: -75px;
+    width: 150px; 
+    border-radius: 50%; 
+    border: 2px solid white;
 }
+
 .box {
-    border: 10px;
+    position: relative;
+    background-color: white; 
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 33%;
+    border-radius: 10px;
     padding: 30px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.twitter a {
+    display: block;
+    font-family: 'Nunito', sans-serif; 
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: #1da1f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.facebook a {
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: #3b5998;
+    border-radius: 5px; 
+    padding: 10px;
+    margin: 0;
+}
+
+.twitter a:hover {
+    background-color: #0b7bc1;
+}
+
+.facebook a:hover {
+    background-color: #2b406e;
 }
