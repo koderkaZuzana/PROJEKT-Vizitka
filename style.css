@@ -21,7 +21,6 @@ body {
 p {
     font-family: 'Nunito', sans-serif; 
     font-size: 18px;
-    margin-bottom: 30px;
 }
 
 h1 {
@@ -30,6 +29,7 @@ h1 {
     font-weight: 700;
     color: #d63031;
     margin-top: 0px;
+    margin-bottom: 30px;
 }
 
 .foto {
@@ -43,8 +43,7 @@ h1 {
     position: relative;
     background-color: white; 
     width: 550px;
-    margin-top: 150px;
-    margin-left: 50%;
+    margin: 150px auto;
     border-radius: 10px;
     padding: 30px 30px;
     box-shadow: 5px 5px 15px grey;
@@ -62,7 +61,7 @@ h1 {
     background-color: #1da1f2;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-top: 30px;
 }
 
 .facebook a {
